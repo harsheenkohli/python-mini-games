@@ -81,7 +81,13 @@ def winner(pl1Name, pl2Name, p1Points, p2Points) :
 
 def displayPoints(pl1Name, pl2Name, p1Points, p2Points) :
     print("Points tally :")
-    print(pl1Name, ":", p1Points)
-    print(pl2Name, ":", p2Points)
+    print(pl1Name, ":", p1Points, "\t", pl2Name, ":", p2Points)
+    if (p1Points > p2Points) :
+        print(pl1Name, "is currently in lead!")
+    elif (p1Points < p2Points) :
+        print(pl2Name, "is currently in lead!")
+    else :
+        print("Scores levelled!")
+    print()
 
 playJumbleUp()
