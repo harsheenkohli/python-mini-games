@@ -89,6 +89,5 @@ def displayPoints(pl1Name, pl2Name, p1Points, p2Points) :
         print(pl2Name, "is currently in lead!")
     else :
         print("Scores levelled!")
-    print()
 
 playJumbleUp()
