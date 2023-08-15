@@ -67,7 +67,8 @@ def game(word) :
             points = 5
             print("You guessed right!")
         else :
-            print("Incorrect guesses :(")
+            print("Incorrect guesses :(")            
+            print("The correct answer was :", word, "\n")
     return points
 
 def winner(pl1Name, pl2Name, p1Points, p2Points) :
