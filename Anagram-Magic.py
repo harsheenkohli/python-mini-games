@@ -6,7 +6,7 @@ def playJumbleUp() :
     print("Welcome to ANAGRAM MAGIC!✨\n")
     pl1Name = input("Player 1, please enter your name :\n")
     pl2Name = input("Player 2, please enter your name :\n")
-    print("RULES :\nEach player gets 2 guesses per word. \nGuess 1 : 10 points \nGuess 2 : 5 points")
+    print("\nRULES :\nEach player gets 2 guesses per word. \nGuess 1 : 10 points \nGuess 2 : 5 points\n")
 
     p1Points = p2Points = 0
     playerTurn = pl1Name
@@ -14,7 +14,7 @@ def playJumbleUp() :
 
     while(True) :
         turn(playerTurn)
-        print(playerTurn, ": Enter a word :")
+        print(playerTurn, "— Enter a word :")
         word = input()
         word = word.upper()
         
@@ -67,7 +67,7 @@ def game(word) :
             points = 5
             print("You guessed right!")
         else :
-            print("Incorrect guesses :(")            
+            print("Incorrect guesses :(")
             print("The correct answer was :", word, "\n")
     return points
 
