@@ -48,4 +48,7 @@ def magic_square(n) :
         print()
 
 n = input("Enter the number of rows/columns of the magic square : ")
-magic_square(int(n))
+if (n % 2 == 0) :
+    print("Magic Square for even number of rows/columns is not possible.")
+else :
+    magic_square(int(n))
