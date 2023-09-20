@@ -13,13 +13,14 @@ import nltk
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
 nltk.downloader.download('vader_lexicon')
-file = 'Facebook-sentiment-analysis.xlsx'     # write proper path
+file = 'd:/TJCP/Week 8/Facebook-sentiment-analysis.xlsx'     # write proper path
 
 xl = pandas.ExcelFile(file)     # read from excel
 dfs = xl.parse(xl.sheet_names[0])     # 0 => info in first column
 # parsing excel sheet to data frame
 
-dfs = list(dfs['Timeline']) # name of column => removes blank rows from data frame
+# name of column => removes blank rows from data frame
+dfs = list(dfs['Timeline'])
 # print(dfs)
 
 # initialise sentiment intensity analyser
@@ -29,11 +30,11 @@ sid = SentimentIntensityAnalyzer()
 # remove this by hard code
 str1 = "UTC+"
 
-for data in dfs :
+for data in dfs:
     a = data.find(str1)
-    if(a == -1) :
-        ss = sid.polarity_scores(data) 
+    if (a == -1):
+        ss = sid.polarity_scores(data)
         # list of neg, neu, pos and compound
         print(data)
-        for k in ss :
+        for k in ss:
             print(k, ss[k])
