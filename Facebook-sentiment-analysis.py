@@ -13,7 +13,7 @@ import nltk
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
 nltk.downloader.download('vader_lexicon')
-file = 'd:/TJCP/Week 8/Facebook-sentiment-analysis.xlsx'     # write proper path
+file = 'Facebook-sentiment-analysis.xlsx'     # write proper path
 
 xl = pandas.ExcelFile(file)     # read from excel
 dfs = xl.parse(xl.sheet_names[0])     # 0 => info in first column
