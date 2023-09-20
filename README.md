@@ -16,7 +16,7 @@
 
 ## Project Descriptions
 
-- [Anagram Magic](Anagram-Magic.py): A 2 player mini game to create the correct word out of the scrambled letters.
+- [Anagram Magic](Anagram-Magic.py): A two-player mini game to create the correct word out of the scrambled letters.
 - [Facebook Sentiment Analysis](Facebook-sentiment-analysis.py): An application for sentiment analysis of Facebook data.
 - [GPS](GPS.py): A Python script related to create Google maps route out of coordinates in a csv file (route.csv in this repo).
 - [Image Processing](Image-processing.py): A mini project that involves image processing.
