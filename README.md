@@ -9,6 +9,7 @@
 - [Magic Square](#magic-square)
 - [Monte Hall](#monte-hall)
 - [MyMap HTML](#mymap-html)
+- [Natural Language Processing](#nlp)
 - [Snakes and Ladders](#snakes-and-ladders)
 - [Spiral Animation](#spiral-animation)
 - [Tic-Tac-Toe](#tic-tac-toe)
@@ -23,6 +24,7 @@
 - [Magic Square](Magic-Square.py): A program to create magic squares.
 - [Monte Hall](Monte-Hall.py): A Python program related to the Monte Hall problem.
 - [MyMap HTML](MyMap.html): Stores output of GPS.py .
+- [Natural Language Processing](#nlp): A Python data analysis project employing word length distribution criteria to discern and evaluate diverse authors' writing styles through the lens of stylometry, with the aim of attributing authorship to disputed papers.
 - [Snakes and Ladders](Snakes-n-Ladders.py): A Python implementation of the Snakes and Ladders game.
 - [Spiral Animation](Spiral-Animation.py): A Python script related to create a spiral animation.
 - [Tic-Tac-Toe](Tic-Tac-Toe.py): A Python implementation of the Tic-Tac-Toe game.
