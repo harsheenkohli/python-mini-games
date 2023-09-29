@@ -5,6 +5,7 @@
 - [Data Repository](#data)
 - [Anagram Magic Game](#anagram-magic)
 - [Facebook Sentiment Analysis Tool](#facebook-sentiment-analysis)
+- [Flames Calculator Game](#flames-calculator)
 - [GPS Route Generation](#gps)
 - [Image Processing Mini Project](#image-processing)
 - [Magic Square Generator](#magic-square)
@@ -21,6 +22,7 @@
 - [Data Repository](data): A designated directory housing the pertinent papers utilized for in-depth data analysis within the NLP.py project.
 - [Anagram Magic Game](Anagram-Magic.py): A two-player interactive word game challenging participants to unscramble letters and form the correct words.
 - [Facebook Sentiment Analysis Tool](Facebook-sentiment-analysis.py): An application designed for sentiment analysis of Facebook data, enabling insightful sentiment assessment.
+- [Flames Calculator Game](Flames-Calculator.py):A Python game for assessing relationship compatibility by calculating the FLAMES acronym, offering a lighthearted perspective on interpersonal connections.
 - [GPS Route Generation](GPS.py): A Python script dedicated to creating Google Maps routes based on coordinates provided in a CSV file (route.csv in this repository).
 - [Image Processing Mini Project](Image-processing.py): An engaging mini-project focusing on various aspects of image processing.
 - [Magic Square Generator](Magic-Square.py): A program designed to generate magic squares, showcasing mathematical and algorithmic prowess.
