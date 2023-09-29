@@ -34,6 +34,6 @@
 - [Tic-Tac-Toe Game Implementation](Tic-Tac-Toe.py): A Python implementation of the Tic-Tac-Toe game, offering a platform for strategic gameplay.
 - [Geospatial Data CSV](route.csv): A structured CSV file for the storage of latitude and longitude coordinates, tailored to streamline mapping and geospatial analysis. This resource is integral to the functionality of the GPS.py project.
 
-## Note
+### Note
 
 This README is for personal reference and may not include detailed instructions for each project. It is meant to serve as a reminder of the projects available in this repository.
