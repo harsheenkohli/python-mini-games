@@ -31,7 +31,7 @@ print(combinedList)
 
 count = len(combinedList)
 flames = ["F", "L", "A", "M", "E", "S"]
-flames_dict = {"F": "Friends", "L": "Lovers", "A": "Adore",
+flames_dict = {"F": "Friends", "L": "Lovers", "A": "Affection",
                "M": "Marriage", "E": "Enemies", "S": "Siblings"}
 
 while len(flames) > 1:
