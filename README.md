@@ -2,11 +2,11 @@
 
 ## Table of Contents
 
-- [Data Repository](#data)
-- [Anagram Magic Game](#anagram-magic)
-- [Facebook Sentiment Analysis Tool](#facebook-sentiment-analysis)
-- [Flames Calculator Game](#flames-calculator)
-- [GPS Route Generation](#gps)
+- [Data Repository](data)
+- [Anagram Magic Game](Anagram-Magic.py)
+- [Facebook Sentiment Analysis Tool](Facebook-sentiment-analysis.py)
+- [Flames Calculator Game](Flames-Calculator.py)
+- [GPS Route Generation](GPS.py)
 - [Image Processing Mini Project](#image-processing)
 - [Magic Square Generator](#magic-square)
 - [Monte Hall Problem Solver](#monte-hall)
