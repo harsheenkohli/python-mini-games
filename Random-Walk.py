@@ -38,7 +38,7 @@ for i in range(5000000) :
 
 p = nx.pagerank(G)
 sorted_p = sorted(p.items(), key=operator.itemgetter(1), reverse=True)
-# 1 = sort by vale, 0 = sort by keys
+# 1 = sort by value, 0 = sort by keys
 sorted_dict = sorted(dict_counter.items(), key=operator.itemgetter(1), reverse=True)
 
 print([node for node, visits in sorted_p])
