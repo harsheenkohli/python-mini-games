@@ -1,4 +1,4 @@
-# Points Distributuion method for Page Ranking
+# Points Distribution method for Page Ranking
 # Whatever you have, share equally with all your out edges
 # Sum of points will be same as initial
 # But individual values will change
@@ -83,7 +83,7 @@ final_points = keep_distributing(points, G)
 # Rank by points
 final_points = rank_by_points(final_points)
 
-# Compare with default networkx function
+# Compare with default networkX function
 result = nx.pagerank(G)
 result = sorted(result.items(), key=lambda f:f[1])
 
