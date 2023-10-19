@@ -33,7 +33,7 @@ def checkSnake(token) :
     return token
 
 def show_board() :
-    img = Image.open('d:\TJCP\Week 7\Snl-Board.jpg')
+    img = Image.open('Snl-Board.jpg')
     img.show()
 
 def play() :
