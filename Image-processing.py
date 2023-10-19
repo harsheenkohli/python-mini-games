@@ -5,16 +5,16 @@ from PIL import Image
 import cv2  # for image enhancement
 
 # flipping the image => transposing
-img = Image.open('d:/TJCP/Week 8/Newspaper.jpg')
+img = Image.open('Newspaper.jpg')
 
 # transposing
 transposed_img = img.transpose(Image.FLIP_LEFT_RIGHT)
 
 # save to a file in human understandable format
-transposed_img.save('d:/TJCP/Week 8/Corrected.png')
+transposed_img.save('Corrected.png')  # write proper path
 
 # read the image
-img = cv2.imread('d:/TJCP/Week 8/Corrected.png')
+img = cv2.imread('Corrected.png')
 
 # CLAHE : Contrast Limited Adaptive Histogram Equalisation
 
@@ -28,6 +28,6 @@ enh_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)    # in matrix form
 enh_img = clahe.apply(enh_img)     # in matrix form
 
 # save output
-cv2.imwrite('d:/TJCP/Week 8/enhanced.png', enh_img)
+cv2.imwrite('enhanced.png', enh_img)
 
 print("Done enhancing!")
