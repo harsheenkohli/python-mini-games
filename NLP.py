@@ -22,7 +22,7 @@ papers = {
 
 
 def read_files(filename):
-    directory = r"d:/TJCP/Week 9/data"
+    directory = r"data"
     strings = []
     for file in filename:
         file_path = os.path.join(directory, f'federalist_{file}.txt')
