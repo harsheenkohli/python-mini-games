@@ -16,6 +16,7 @@
 - [Random Walk](Random-Walk.py)
 - [Geospatial Data CSV](Route.csv)
 - [Snakes and Ladders Game](Snakes-n-Ladders.py)
+- [Snakes and Ladders Board](Snl-Board.jpg)
 - [Spiral Animation Script](Spiral-Animation.py)
 - [Tic-Tac-Toe Game Implementation](Tic-Tac-Toe.py)
 
@@ -35,6 +36,7 @@
 - [Random Walk](Random-Walk.py): A project that simulates a random walk on a directed graph, where crawlers take random paths on websites and rank the websites based on visit counts. Google's PageRank system, which relies on directed graphs, serves as an inspiration for this project.
 - [Geospatial Data CSV](Route.csv): A structured CSV file for the storage of latitude and longitude coordinates, tailored to streamline mapping and geospatial analysis. This resource is integral to the functionality of the "GPS.py" project.
 - [Snakes and Ladders Game](Snakes-n-Ladders.py): A Python implementation of the classic Snakes and Ladders board game, providing an interactive gaming experience.
+- [Snakes and Ladders Board](Snl-Board.jpg): The game board for the "Snakes-n-Ladders.py" project.
 - [Spiral Animation Script](Spiral-Animation.py): A Python script dedicated to creating captivating spiral animations, showcasing creative and visual programming.
 - [Tic-Tac-Toe Game Implementation](Tic-Tac-Toe.py): A Python implementation of the Tic-Tac-Toe game, offering a platform for strategic gameplay.
 
