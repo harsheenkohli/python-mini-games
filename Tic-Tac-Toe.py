@@ -55,7 +55,7 @@ def place(symbol) :
         print("Enter your row and column number respectively (1 to 3):")
         row = int(input()) - 1
         col = int(input()) - 1
-        if (row > 2 or col > 2 or row < 0 or col < 0 or board[row][col] != '-') :
+        if (row > 2 or col > 2 or row < 0 or col < 0 or board[row][col] != '_') :
             print("Please try again")
         else :
             board[row][col] = symbol
